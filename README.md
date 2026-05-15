@@ -149,9 +149,4 @@ Warning notifications
 
 
 
----
 
-
-
-
-It is ready to upload directly to GitHub README.md ✅
