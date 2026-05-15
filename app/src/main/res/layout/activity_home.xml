@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF4FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:gravity="center_horizontal">
+
+        <!-- LOGO -->
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="6dp"/>
+
+        <!-- APP NAME -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grama-Sethu"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="10dp"/>
+
+        <!-- SUBTITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rural Connectivity Monitor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="3dp"/>
+
+        <!-- DESCRIPTION -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay safe during monsoon travel"
+            android:textSize="13sp"
+            android:textColor="#666666"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="18dp"/>
+
+        <!-- QUICK ACTIONS -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Actions"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- MAP BUTTON -->
+
+        <Button
+            android:id="@+id/viewMapButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="View Live Map"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5E35B1"/>
+
+        <!-- REPORT BUTTON -->
+
+        <Button
+            android:id="@+id/reportBridgeButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Report Bridge Status"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5E35B1"
+            android:layout_marginTop="8dp"/>
+
+        <!-- ALERT BUTTON -->
+
+        <Button
+            android:id="@+id/alertButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Bridge Alerts"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#5E35B1"
+            android:layout_marginTop="8dp"/>
+
+        <!-- SOS BUTTON -->
+
+        <Button
+            android:id="@+id/sosButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Emergency SOS"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginTop="8dp"/>
+
+        <!-- WEATHER CARD -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/weather_card_bg"
+            android:padding="16dp"
+            android:layout_marginTop="26dp"
+            android:elevation="4dp">
+
+            <!-- WEATHER TITLE -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weather Updates"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0D47A1"/>
+
+            <!-- SEARCH BOX -->
+
+            <EditText
+                android:id="@+id/cityInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Search city"
+                android:text="Tumkur"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:textColorHint="#888888"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:background="@drawable/rounded_search"
+                android:layout_marginTop="12dp"/>
+
+            <!-- SEARCH BUTTON -->
+
+            <Button
+                android:id="@+id/searchWeatherButton"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:text="Search Weather"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1565C0"
+                android:layout_marginTop="10dp"/>
+
+            <!-- WEATHER RESULT -->
+
+            <TextView
+                android:id="@+id/weatherText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Loading weather updates..."
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="2dp"
+                android:layout_marginTop="14dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

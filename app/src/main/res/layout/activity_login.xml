@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- LOGO -->
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="6dp"/>
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GramaSethu"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"/>
+
+        <!-- SUBTITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login to continue"
+            android:textSize="18sp"
+            android:textColor="#444444"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- MOBILE INPUT -->
+
+        <EditText
+            android:id="@+id/mobileInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Mobile Number"
+            android:inputType="phone"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- PASSWORD INPUT -->
+
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- LOGIN BUTTON -->
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6A4FB3"
+            android:elevation="8dp"/>
+
+        <!-- REGISTER -->
+
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New User? Register"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="28dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

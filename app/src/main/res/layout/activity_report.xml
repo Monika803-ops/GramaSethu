@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- LOGO -->
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="15dp"/>
+
+        <!-- TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report Bridge Status"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="14dp"/>
+
+        <!-- SUBTITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update rural bridge conditions"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="28dp"/>
+
+        <!-- BRIDGE NAME -->
+
+        <EditText
+            android:id="@+id/bridgeNameInput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Bridge Name"
+            android:textSize="16sp"
+            android:padding="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="10dp"/>
+
+        <!-- VILLAGE NAME -->
+
+        <EditText
+            android:id="@+id/villageInput"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Village Name"
+            android:textSize="16sp"
+            android:padding="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="18dp"/>
+
+        <!-- STATUS TITLE -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bridge Status"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#0D47A1"
+            android:layout_marginTop="22dp"
+            android:layout_gravity="start"/>
+
+        <!-- STATUS SPINNER -->
+
+        <Spinner
+            android:id="@+id/statusSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"/>
+
+        <!-- NOTES -->
+
+        <EditText
+            android:id="@+id/notesInput"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Additional Notes"
+            android:textSize="16sp"
+            android:gravity="top"
+            android:padding="15dp"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="20dp"/>
+
+        <!-- SUBMIT BUTTON -->
+
+        <Button
+            android:id="@+id/submitReportButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Submit Report"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#6A4FB3"
+            android:layout_marginTop="28dp"/>
+
+        <!-- SMALL FOOTER TEXT -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your report helps travelers stay safe"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
