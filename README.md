@@ -1,4 +1,4 @@
-Grama-Sethu 
+Grama-Sethu 🌉
 
 Rural Bridge Monitoring and Flood Alert System
 
@@ -9,9 +9,9 @@ The project focuses on helping rural communities, travelers, students, farmers, 
 
 ---
 
- Features
+📱 Features
 
- User Authentication
+✅ User Authentication
 
 User Login
 
@@ -20,7 +20,7 @@ User Registration
 Firebase Authentication Integration
 
 
- Live Bridge Monitoring
+🗺 Live Bridge Monitoring
 
 Google Maps Integration
 
@@ -31,7 +31,7 @@ Clickable Bridge Details Popup
 Color-Based Bridge Status Indicators
 
 
-Bridge Alerts System
+🚨 Bridge Alerts System
 
 Dangerous Bridge Alerts
 
@@ -42,7 +42,7 @@ Sound Warning Alerts
 Travel Safety Notifications
 
 
-Weather Monitoring
+🌧 Weather Monitoring
 
 Real-Time Weather Updates
 
@@ -53,7 +53,7 @@ Weather API Integration
 Rain-Based Travel Warning System
 
 
-Bridge Reporting System
+📋 Bridge Reporting System
 
 Users can:
 
@@ -68,7 +68,7 @@ Add additional notes
 Upload bridge images (planned enhancement)
 
 
- Emergency Support
+🆘 Emergency Support
 
 Emergency SOS Button
 
@@ -78,14 +78,14 @@ Direct Dial to Emergency Helpline (112)
 
 ---
 
-Technologies Used
+🛠 Technologies Used
 
 Java, Android Studio, Firebase Realtime Database, Firebase Authentication, Google Maps API, OpenWeather API, XML, Material Design UI, Notification System, MediaPlayer API, Android SDK
 
 
 ---
 
-Problem Statement
+🎯 Problem Statement
 
 Small bridges and culverts in rural areas often become submerged or damaged during monsoon seasons. Travelers usually do not have access to real-time bridge condition updates before reaching the location. This may lead to dangerous travel situations, delays, accidents, and isolation of villages.
 
@@ -94,7 +94,7 @@ Grama-Sethu solves this problem by providing live bridge monitoring, weather-bas
 
 ---
 
-Project Objectives
+📌 Project Objectives
 
 Improve rural travel safety
 
@@ -110,9 +110,9 @@ Support emergency response during disasters
 
 ---
 
-Application Screens
+📷 Application Screens
 
-Home Screen
+🏠 Home Screen
 
 Quick action dashboard
 
@@ -121,7 +121,7 @@ Weather updates
 Emergency SOS access
 
 
-Map Screen
+🗺 Map Screen
 
 Live bridge markers
 
@@ -130,7 +130,7 @@ Bridge status details
 Alert popups
 
 
-Report Screen
+📋 Report Screen
 
 Bridge reporting form
 
@@ -139,7 +139,7 @@ Status submission
 Notes section
 
 
-Alerts Screen
+🚨 Alerts Screen
 
 Dangerous bridge alerts
 
@@ -149,8 +149,9 @@ Warning notifications
 
 
 
+---
 
 
 
 
-
+It is ready to upload directly to GitHub README.md ✅
